@@ -1,14 +1,14 @@
 # Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              Felipe Tavares de Melo (F™)
+bio:                'Analista e desenvolvedor de sistemas'
+description:        "Analista de desenvolvedor de sistemas. Soluções web full-stack, desktop, mobile e IoT."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/logo.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:                https://taylantatli.github.io/Moon
+locale:             pt_BR
+url:                https://felipetavaresmelo.github.io/
 
 # Jekyll
 permalink:          /:title/
@@ -26,38 +26,38 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   felipetavaresmelo
 
 # Social
 # if you don't have any of social below, comment the line.
 #google:
-  #plus:            #username
-  #analytics:
+  plus:             +FelipeTavaresDeMelo85
+  #analytics:       
   #verify:
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+#email:              felipetavaresmelo@gmail.com
+twitter:            ftavaresmelo
+facebook:           felipetavaresmelo
+github-url:         felipetavaresmelo
+stackoverflow:      133744/felipe-tavares-de-melo   from a "http://stackoverflow.com/users/133744/felipe-tavares-de-melo" link
+linkedin:           felipetavaresmelo
 #xing:              username
-instagram:          username
+instagram:          felipetm
 #lastfm:            username
 #tumblr:            username
-#medium:            '@username'
+medium:            '@felipetavaresmelo'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:             username
 #dribbble:          username
-#youtube:           username
+youtube:            felipetavaresmelo
 #youtube-channel:   channel
-#soundcloud:        username
+soundcloud:         felipetavaresmelo
 #weibo:             username
-#flickr:            username
-#codepen:           username
+flickr:             felipetavaresmelo
+codepen:            @felipetavaresmelo-the-decoder
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
