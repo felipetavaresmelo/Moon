@@ -1,9 +1,4 @@
 # Site navigation links
-- title: Principal
-  url: /
-
-- title: Sobre
-  url: /about/
   
 - title: Projetos
   url: /projects/
