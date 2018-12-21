@@ -1,4 +1,6 @@
 # Site navigation links
+- title: Principal
+  url: /
 
 - title: Sobre
   url: /about/
