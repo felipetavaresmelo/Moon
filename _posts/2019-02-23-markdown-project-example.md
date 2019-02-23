@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "Moon Jekyll Theme"
-date:   2016-04-06
+title:  "Markdon Project Example"
+date:   2019-02-23
 excerpt: "Minimal, one column Jekyll theme for your blog."
-project: true
 tag:
 - jekyll 
 - moon
@@ -11,6 +10,7 @@ tag:
 - about
 - theme
 comments: true
+project: true
 ---
 
 ![Moon Homepage](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
