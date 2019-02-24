@@ -1,7 +1,7 @@
 # Site
 title:              Felipe Tavares de Melo
-bio:                'Engenheiro de Software'
-description:        "Sou um engenheiro de software em constante aprendizado técnico, de gestão e negócios, com mais de 12 anos de mercado. Tenho experiência no desenvolvimento de sistemas cognitivos e utilities, na gestão de desenvolvimento imobiliário e gestão educacional."
+bio:                'Sou um engenheiro de software em constante aprendizado técnico, de gestão e negócios, com mais de 12 anos de mercado. Tenho experiência no desenvolvimento de sistemas cognitivos e utilities, na gestão de desenvolvimento imobiliário e gestão educacional.'
+description:        "Sou um engenheiro de software em constante aprendizado."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
