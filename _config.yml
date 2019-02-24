@@ -1,14 +1,14 @@
 # Site
 title:              Felipe Tavares de Melo
-bio:                'Sou um engenheiro de software em constante aprendizado técnico, de gestão e negócios, com mais de 12 anos de mercado. Tenho experiência no desenvolvimento de sistemas cognitivos e utilities, na gestão de desenvolvimento imobiliário e gestão educacional.'
-description:        "Sou um engenheiro de software em constante aprendizado."
+bio:                'Engenheiro de Software'
+description:        "Engenheiro de Software"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           true   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             pt_BR
-url:                https://felipetavaresmelo.github.io
+url:                http://localhost:4000 #https://felipetavaresmelo.github.io
 
 # Jekyll
 permalink:          /:title/
