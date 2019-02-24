@@ -3,12 +3,8 @@ layout: post
 title:  "Markdon Project Example"
 date:   2019-02-23
 excerpt: "Minimal, one column Jekyll theme for your blog."
-tag:
-- jekyll 
-- moon
-- blog
-- about
-- theme
+tag: 
+- Markdon
 comments: true
 project: true
 ---

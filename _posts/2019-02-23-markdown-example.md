@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Markdown Example"
-date:   2015-08-10
+date:   2019-02-23
 excerpt: ""
 tag:
 - markdown 
-- example
 comments: true
 ---
 
