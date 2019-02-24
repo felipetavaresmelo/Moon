@@ -8,6 +8,9 @@ tag:
 comments: true
 ---
 
+Essa página é apenas um exemplo de conteúdos do site theme open source jekyll que utilizei para fazer esse site. Deixei ela no ar apenas para dar a referência do projeto que achei muito bacana.
+Segue o github do projeto: <iframe src="https://ghbtns.com/github-btn.html?user=TaylanTatli&repo=Moon&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> 
+
 [MathJax](http://www.mathjax.org/) is a simple way of including Tex/LaTex/MathML based mathematics in HTML webpages. To get up and running you need to include the MathJax script in the header of your github pages page, and then write some maths. For LaTex, there are two delimiters you need to know about, one for block or displayed mathematics `\[ ... \]`, and the other for inline mathematics `\( ... \)`.
 
 ## Usage
