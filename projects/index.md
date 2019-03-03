@@ -1,8 +1,7 @@
 ---
 layout: project
 title: Projetos
-excerpt: "A lista de projetos"
+excerpt: "Projetos"
 comments: true
 sitemap: true
 ---
-Oi
