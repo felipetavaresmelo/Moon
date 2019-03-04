@@ -111,6 +111,21 @@ Para a instalação do SQL Server Express no Ubuntu 16.04 LTS eu utilizei os com
         echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
         source ~/.bashrc
         ```
+---
+
+## Conectar-se localmente
+
+    Parâmetros:
+
+    - Nome do SQL Server (-S), para acesso local é *localhost*.
+    - Nome de usuário (-U), usuário padrão é *SA*.
+    - Senha (-P), fornecida durante a instalação.
+
+    Execute o comando abaixo colocando os dados dos parametros descritos acima:
+
+    ```bash
+    sqlcmd -S localhost -U SA -P '<YourPassword>'
+    ```
 
 ---
 
