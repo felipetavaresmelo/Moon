@@ -1,7 +1,7 @@
 ---
 layout: post-list
-title: Postagens
-excerpt: "A lista das postagens"
+title: Anotações
+excerpt: "A lista de anotações"
 comments: true
 sitemap: true
 ---
