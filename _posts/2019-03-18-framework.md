@@ -28,14 +28,21 @@ Para modelagem do diagrama de classes está sendo utililzado o software livre DI
 ## Tecnologias
 
 Prioritariamente utilirei as seguintes tecnologias:
+
+### Banco de Dados
+
+- Relacional: [MariaDB](https://mariadb.org/) ou [Postgress](https://www.postgresql.org/)
+- Orientado a documento: [MongoDB](https://www.mongodb.com/)
+
 ### Backend:
 
-- Node.JS
+- [Node.js](https://nodejs.org)
+- [Express.js](https://expressjs.com)
 
 ### Frontend:
 
 Web:
-- Vue.JS ou React
+- [Vue.js](https://vuejs.org/) ou [React](https://reactjs.org/)
 
-Mobile:
-- React Native
+Mobile Android e iOS:
+- [React Native](https://facebook.github.io/react-native/)
