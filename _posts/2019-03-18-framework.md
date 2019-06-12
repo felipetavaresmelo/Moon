@@ -29,23 +29,23 @@ Prioritariamente utilizarei as seguintes tecnologias:
 
 ### Banco de Dados
 
-- Para o tratamento de informações com dados estruturados em banco de dados relacionais utilizaremos o [MariaDB](https://mariadb.org/) ou o[Postgress](https://www.postgresql.org/). Ainda a ser definido.
+- Para o tratamento de informações com dados estruturados em banco de dados relacionais utilizarei o [MariaDB](https://mariadb.org/) ou o[Postgress](https://www.postgresql.org/). Ainda a ser definido.
 
-- Para a exploração de dados não estruturados com grandes volumes de dados orientados a documentos e também para dados que tenham grande quantidade de requisições utilizaremos o [MongoDB](https://www.mongodb.com/).
+- Para a exploração de dados não estruturados com grandes volumes de dados orientados a documentos e também para dados que tenham grande quantidade de requisições utilizarei o [MongoDB](https://www.mongodb.com/).
 
 ### Backend:
 
-- O servidor será predominantemente escrito em [Node.js](https://nodejs.org) e em algumas situações em [python](https://www.python.org/) para raspagem de dados online.
+- O servidor será predominantemente escrito em [Node.js](https://nodejs.org) e em algumas situações em [python](https://www.python.org/) para raspagem de dados online, por exemplo.
 - O webservice de acesso aos nossos serviços será feitos com o [Express.js](https://expressjs.com).
-- Utulizaremos o padrão de documentos `.JSON` para troca de informações com o frontend.
+- Utilizaremos o padrão de documentos `.JSON` para troca de informações com o frontend.
 
 ### Frontend
 
-#### Web:
+#### Acesso Web:
 - O frontend web será feito na arquitetura de uma SPA utilizando o framework [Vue.js](https://vuejs.org/) ou [React](https://reactjs.org/).
 
-#### Mobile Android e iOS
-- Para acessos através de APPs mobile de parte da aplicação que possa ser executada localmente nos dispositivos móveis criaremos as APPs para Android e iOS com o framework [React Native](https://facebook.github.io/react-native/).
+#### Acessso por dispositivos móveis
+- Para acessos através de dispositivos móveis a serviços que possam ser pré-processados localmente nos dispositivos móveis criarei as APPs para Android e iOS com o framework [React Native](https://facebook.github.io/react-native/).
 
 ---
 
