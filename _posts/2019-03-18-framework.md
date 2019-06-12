@@ -11,11 +11,7 @@ project: true
 sitemap: true
 ---
 
-##### Nota ao leitor
-
-Esse projeto será incremental. Foi feito no interesse de registrar algumas ideias desse projeto pessoal. Também foi feito com o interesse de divulgar o conteúdo técnico utilizado no projeto para que outras pessoas possam colaborar.
-Caso encontre alguma informação confusa, errada ou incompleta pesso a gentileza de colocar nos comentários para que eu possa melhorar o post.
-Agradeço a compreesão.
+##### Nota ao leitor [^1]
 
 # Framework Pessoal
 
@@ -42,7 +38,13 @@ Prioritariamente utilizarei as seguintes tecnologias:
 ### Frontend
 
 #### Web:
-- [Vue.js](https://vuejs.org/) ou [React](https://reactjs.org/)
+- [Vue.js](https://vuejs.org/) ou [React](https://reactjs.org/).
 
 #### Mobile Android e iOS
-- [React Native](https://facebook.github.io/react-native/)
+- [React Native](https://facebook.github.io/react-native/).
+
+---
+
+[^1]: Esse projeto será incremental. Foi feito no interesse de registrar algumas ideias desse projeto pessoal. Também foi feito com o interesse de divulgar o conteúdo técnico utilizado no projeto para que outras pessoas possam colaborar.
+Caso encontre alguma informação confusa, errada ou incompleta pesso a gentileza de colocar nos comentários para que eu possa melhorar o post.
+Agradeço a compreesão.
