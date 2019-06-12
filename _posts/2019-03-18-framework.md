@@ -50,5 +50,5 @@ Prioritariamente utilizarei as seguintes tecnologias:
 ---
 
 [^bignote]: Esse projeto será incremental. Foi feito no interesse de registrar algumas ideias desse projeto pessoal. Também foi feito com o interesse de divulgar o conteúdo técnico utilizado no projeto para que outras pessoas possam colaborar. 
-Caso encontre alguma informação confusa, errada ou incompleta pesso a gentileza de colocar nos comentários para que eu possa melhorar o post.
-Agradeço a compreesão.
+    Caso encontre alguma informação confusa, errada ou incompleta pesso a gentileza de colocar nos comentários para que eu possa melhorar o post.
+    Agradeço a compreesão.
