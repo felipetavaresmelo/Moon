@@ -21,11 +21,15 @@ Esse framework foi criado com a finalidade de ser utilizado em qualquer soluçã
 
 ## Modelagem
 
+---
+
 Para modelagem do diagrama de classes está sendo utililzado o software free: [DIA - Diagram Editor](http://dia-installer.de/).
 
 ---
 
 ## Tecnologias
+
+---
 
 Prioritariamente utilizarei as seguintes tecnologias:
 
