@@ -11,7 +11,7 @@ project: true
 sitemap: true
 ---
 
-Nota ao leitor [^Nota_ao_leitor]
+[^Nota_ao_leitor]
 
 # Framework Pessoal
 
@@ -49,5 +49,4 @@ Prioritariamente utilizarei as seguintes tecnologias:
 
 ---
 
-[^Nota_ao_leitor]: Esse projeto será incremental. Foi feito no interesse de registrar algumas ideias desse projeto pessoal. Também foi feito com o interesse de divulgar o conteúdo técnico utilizado no projeto para que outras pessoas possam colaborar. Caso encontre alguma informação confusa, errada ou incompleta pesso a gentileza de colocar nos comentários para que eu possa melhorar o post.
-Agradeço a compreesão.
+[^Nota_ao_leitor]: Esse projeto será incremental. Foi feito no interesse de registrar algumas ideias desse projeto pessoal. Também foi feito com o interesse de divulgar o conteúdo técnico utilizado no projeto para que outras pessoas possam colaborar. Caso encontre alguma informação confusa, errada ou incompleta pesso a gentileza de colocar nos comentários para que eu possa melhorar o post. Agradeço a compreesão.
