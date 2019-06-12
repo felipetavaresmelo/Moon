@@ -11,9 +11,9 @@ project: true
 sitemap: true
 ---
 
-Nota: [^bignote]
+Nota: 
 
-# Framework Pessoal
+# Framework Pessoal [^bignote]
 
 Esse framework foi criado com a finalidade de ser utilizado em qualquer solução de negócio.
 
