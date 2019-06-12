@@ -11,8 +11,6 @@ project: true
 sitemap: true
 ---
 
-Nota: 
-
 # Framework Pessoal [^bignote]
 
 Esse framework foi criado com a finalidade de ser utilizado em qualquer solução de negócio.
@@ -21,38 +19,36 @@ Esse framework foi criado com a finalidade de ser utilizado em qualquer soluçã
 
 ## Modelagem
 
----
-
 Para modelagem do diagrama de classes está sendo utililzado o software free: [DIA - Diagram Editor](http://dia-installer.de/).
 
 ---
 
 ## Tecnologias
 
----
-
 Prioritariamente utilizarei as seguintes tecnologias:
 
 ### Banco de Dados
 
-- Relacional: [MariaDB](https://mariadb.org/) ou [Postgress](https://www.postgresql.org/). Ainda a ser definido.
-- Orientado a documento: [MongoDB](https://www.mongodb.com/)
+- Para o tratamento de informações com dados estruturados em banco de dados relacionais utilizaremos o [MariaDB](https://mariadb.org/) ou o[Postgress](https://www.postgresql.org/). Ainda a ser definido.
+
+- Para a exploração de dados não estruturados com grandes volumes de dados orientados a documentos e também para dados que tenham grande quantidade de requisições utilizaremos o [MongoDB](https://www.mongodb.com/).
 
 ### Backend:
 
-- [Node.js](https://nodejs.org)
-- [Express.js](https://expressjs.com)
+- O servidor será predominantemente escrito em [Node.js](https://nodejs.org) e em algumas situações em [python](https://www.python.org/) para raspagem de dados online.
+- O webservice de acesso aos nossos serviços será feitos com o [Express.js](https://expressjs.com).
+- Utulizaremos o padrão de documentos `.JSON` para troca de informações com o frontend.
 
 ### Frontend
 
 #### Web:
-- [Vue.js](https://vuejs.org/) ou [React](https://reactjs.org/).
+- O frontend web será feito na arquitetura de uma SPA utilizando o framework [Vue.js](https://vuejs.org/) ou [React](https://reactjs.org/).
 
 #### Mobile Android e iOS
-- [React Native](https://facebook.github.io/react-native/).
+- Para acessos através de APPs mobile de parte da aplicação que possa ser executada localmente nos dispositivos móveis criaremos as APPs para Android e iOS com o framework [React Native](https://facebook.github.io/react-native/).
 
 ---
 
-[^bignote]: Esse projeto será incremental. Foi feito no interesse de registrar algumas ideias desse projeto pessoal. Também foi feito com o interesse de divulgar o conteúdo técnico utilizado no projeto para que outras pessoas possam colaborar. 
+[^bignote]: Esse projeto será incremental. Foi feito no interesse de registrar algumas ideias desse projeto pessoal. Também foi feito com o interesse de divulgar o conteúdo técnico utilizado no projeto para que outras pessoas possam colaborar.
     Caso encontre alguma informação confusa, errada ou incompleta pesso a gentileza de colocar nos comentários para que eu possa melhorar o post.
     Agradeço a compreesão.
