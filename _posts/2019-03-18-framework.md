@@ -2,7 +2,7 @@
 layout: post
 title:  "Framework"
 date:   2019-03-18
-excerpt: "Projeto pessoal de frameword "
+excerpt: "Projeto de framework pessoal"
 tag: 
 - Projeto pessoal
 - Framework
@@ -23,15 +23,15 @@ Esse framework foi criado com a finalidade de ser utilizado em qualquer soluçã
 
 ## Modelagem
 
-Para modelagem do diagrama de classes está sendo utililzado o software livre DIA.
+Para modelagem do diagrama de classes está sendo utililzado o software free: [DIA - Diagram Editor](http://dia-installer.de/).
 
 ## Tecnologias
 
-Prioritariamente utilirei as seguintes tecnologias:
+Prioritariamente utilizarei as seguintes tecnologias:
 
 ### Banco de Dados
 
-- Relacional: [MariaDB](https://mariadb.org/) ou [Postgress](https://www.postgresql.org/)
+- Relacional: [MariaDB](https://mariadb.org/) ou [Postgress](https://www.postgresql.org/). Ainda a ser definido.
 - Orientado a documento: [MongoDB](https://www.mongodb.com/)
 
 ### Backend:
@@ -39,10 +39,10 @@ Prioritariamente utilirei as seguintes tecnologias:
 - [Node.js](https://nodejs.org)
 - [Express.js](https://expressjs.com)
 
-### Frontend:
+### Frontend
 
-Web:
+#### Web:
 - [Vue.js](https://vuejs.org/) ou [React](https://reactjs.org/)
 
-Mobile Android e iOS:
+#### Mobile Android e iOS
 - [React Native](https://facebook.github.io/react-native/)
