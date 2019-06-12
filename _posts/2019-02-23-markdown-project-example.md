@@ -6,7 +6,7 @@ excerpt: "Minimal, one column Jekyll theme for your blog."
 tag: 
 - Markdon
 comments: true
-project: true
+project: false
 ---
 
 Essa página é apenas um exemplo de um projeto do site theme open source jekyll que utilizei para fazer esse site. Deixei ela no ar apenas para dar a referência do projeto que achei muito bacana.
