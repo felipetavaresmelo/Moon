@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: 
 title:  "Markdown Example"
 date:   2019-02-23
 excerpt: ""
