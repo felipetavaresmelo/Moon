@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: post
 title:  "Jekyll"
 date:   2019-02-24
 excerpt: "Anotações relacionadas ao Jekyll"
