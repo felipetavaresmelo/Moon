@@ -15,7 +15,8 @@ sitemap: true
 
 Esse framework foi criado com a finalidade de reunir módulos a serem utilizado em conjunto, em qualquer solução de negócio.
 
-Github do projeto: <iframe src="https://ghbtns.com/github-btn.html?user=felipetavaresmelo&repo=framework&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+Github do projeto: 
+<iframe src="https://ghbtns.com/github-btn.html?user=felipetavaresmelo&repo=framework&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
 ---
 
@@ -25,7 +26,7 @@ Para modelagem do diagrama de classes está sendo utililzado o software free: [D
 
 Segue abaixo o modelo atual:
 ![Diagrama de classes do projeto.](/assets/img/framework/2019-06-18_uml-class-diagram.png "Framework")
-[![Diagrama de classes do projeto.](/assets/img/framework/2019-06-18_uml-class-diagram.png "Framework")](https://github.com/felipetavaresmelo/framework/blob/master/modeling/diagrams/2019-06-18_uml-class-diagram.png)
+[![Diagrama de classes do projeto.](/assets/img/framework/2019-06-18_uml-class-diagram.png "Framework")](https://raw.githubusercontent.com/felipetavaresmelo/felipetavaresmelo.github.io/master/assets/img/framework/2019-06-18_uml-class-diagram.png)
 
 
 ---
