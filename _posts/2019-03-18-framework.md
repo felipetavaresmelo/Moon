@@ -25,6 +25,8 @@ Para modelagem do diagrama de classes está sendo utililzado o software free: [D
 
 Segue abaixo o modelo atual:
 ![Diagrama de classes do projeto.](/assets/img/framework/2019-06-18_uml-class-diagram.png "Framework")
+[![Diagrama de classes do projeto.](/assets/img/framework/2019-06-18_uml-class-diagram.png "Framework")](https://github.com/felipetavaresmelo/framework/blob/master/modeling/diagrams/2019-06-18_uml-class-diagram.png)
+
 
 ---
 
