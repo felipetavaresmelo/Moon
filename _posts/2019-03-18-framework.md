@@ -13,7 +13,7 @@ sitemap: true
 
 # Framework Pessoal [^bignote]
 
-Esse framework foi criado com a finalidade de ser utilizado em qualquer solução de negócio.
+Esse framework foi criado com a finalidade de reunir módulos a serem utilizado em conjunto, em qualquer solução de negócio.
 
 Github do projeto: <iframe src="https://ghbtns.com/github-btn.html?user=felipetavaresmelo&repo=framework&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
@@ -22,6 +22,9 @@ Github do projeto: <iframe src="https://ghbtns.com/github-btn.html?user=felipeta
 ## Modelagem
 
 Para modelagem do diagrama de classes está sendo utililzado o software free: [DIA - Diagram Editor](http://dia-installer.de/).
+
+Segue abaixo o modelo atual:
+![Diagrama de classes do projeto.](/assets/img/framework/2019-06-18_uml-class-diagram.png "Framework")
 
 ---
 
@@ -51,6 +54,6 @@ Prioritariamente utilizarei as seguintes tecnologias:
 
 ---
 
-[^bignote]: Esse projeto será incremental. Foi feito no interesse de registrar algumas ideias desse projeto pessoal. Também foi feito com o interesse de divulgar o conteúdo técnico utilizado no projeto para que outras pessoas possam colaborar.
-    Caso encontre alguma informação confusa, errada ou incompleta pesso a gentileza de colocar nos comentários para que eu possa melhorar o post.
+[^bignote]: Esse projeto é incremental. Foi feito com o interesse de registrar algumas idéias e divulgar o conteúdo técnico utilizado no projeto para que outras pessoas possam colaborar.
+    Caso encontre alguma informação confusa, errada ou incompleta peço a gentileza de colocar nos comentários para que eu possa melhorar o post.
     Agradeço a compreesão.
