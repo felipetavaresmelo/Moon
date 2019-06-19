@@ -31,27 +31,29 @@ Segue o modelo na situação atual:
 
 ## Tecnologias
 
-Prioritariamente utilizarei as seguintes tecnologias:
+Prioritariamente serão utilizadas as seguintes tecnologias:
 
 ### Banco de Dados
 
-- Para o tratamento de informações com dados estruturados em banco de dados relacionais utilizarei o [MariaDB](https://mariadb.org/) ou o[Postgress](https://www.postgresql.org/). Ainda a ser definido.
+- [MariaDB](https://mariadb.org/) ou o [Postgress](https://www.postgresql.org/): Para o armazenamento de informações com dados estruturados.
 
-- Para a exploração de dados não estruturados com grandes volumes de dados orientados a documentos e também para dados que tenham grande quantidade de requisições utilizarei o [MongoDB](https://www.mongodb.com/).
+- [MongoDB](https://www.mongodb.com/): Para a exploração de grandes volumes de dados não estruturados e também para dados que necessitarão de muitas requisições de leitura.
 
 ### Backend:
 
-- O servidor será predominantemente escrito em [Node.js](https://nodejs.org) e em algumas situações em [python](https://www.python.org/) para raspagem de dados online, por exemplo.
-- O webservice de acesso aos nossos serviços será feitos com o [Express.js](https://expressjs.com).
-- Utilizaremos o padrão de documentos `.JSON` para troca de informações com o frontend.
+- [Node.js](https://nodejs.org): Os serviços do backend será predominantemente escrito em [JavaScript](https://pt.wikipedia.org/wiki/JavaScript).
+- [Express.js](https://expressjs.com): O webservice de acesso aos serviços do backend será feito com o Express.js.
+- [Python](https://www.python.org/) em algumas situações, por exemplo, para raspagem de dados, será utilizado [Python](https://pt.wikipedia.org/wiki/Python).
+- [JSON](https://pt.wikipedia.org/wiki/JSON): Será utilizado o padrão de documentos .JSON para troca de informações com o frontend e integração com outras soluções.
 
 ### Frontend
 
 #### Acesso Web:
-- O frontend web será feito na arquitetura de uma SPA utilizando o framework [Vue.js](https://vuejs.org/) ou [React](https://reactjs.org/).
+
+- [Vue.js](https://vuejs.org/) ou [React](https://reactjs.org/): O frontend web será feito na arquitetura de uma [Single-page Application (SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica) onde toda a informação é processada dinamicamente no cliente web.
 
 #### Acessso por dispositivos móveis
-- Para acessos através de dispositivos móveis a serviços que possam ser pré-processados localmente nos dispositivos móveis criarei as APPs para Android e iOS com o framework [React Native](https://facebook.github.io/react-native/).
+- [React Native](https://facebook.github.io/react-native/): Será utilizado para a criação de APPs para dispositivos móveis.
 
 ---
 
