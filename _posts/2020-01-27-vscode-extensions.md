@@ -2,7 +2,7 @@
 layout: post
 title:  "VS Code Extensions"
 date:   2020-01-27
-excerpt: ""
+excerpt: "Extenções do VS Code"
 tag:
 - VS Code 
 - Extensions
