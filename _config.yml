@@ -1,7 +1,7 @@
 # Site
 title:              <strong>Felipe Tavares de Melo</strong>
-bio:                "Engenheiro de Software</br><a href='www.linkedin.com/in/felipetavaresmelo/'>LinkedIn</a>"
-description:        "Engenheiro de Software"
+bio:                "<a href='https://pt.wikipedia.org/wiki/Engenharia_de_software'><strong>Engenheiro de Software</strong></a>"
+description:        "<a href='https://pt.wikipedia.org/wiki/Engenharia_de_software'><strong>Engenheiro de Software</strong></a>"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
