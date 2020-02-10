@@ -9,13 +9,28 @@ tag:
 comments: true
 ---
 
+# Instação do [VSCODE no Linux Ubuntu](https://snapcraft.io/store)
+Primeiramente para fazer a instalação do VSCODE com o comando:
+
+    sudo snap install code --classic
+
 # Visual Studio Code Extensions
-    Lista de extensões do Visual Studio Code para customização e setup rápido do ambiente.
+
+Lista de extensões do Visual Studio Code para customização e setup rápido do ambiente.
+
+Pasta padrão de instalação das extensões:
+
+    code --extensions-dir ~/.vscode/extensions
 
 ## Theme
 
-- [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
-- [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+### [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+- Instalação 
+
+- Ativação
+    
+
+### [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
 
 ## Icons
 
@@ -26,7 +41,7 @@ comments: true
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ## [IntelliSense](https://en.wikipedia.org/wiki/Intelligent_code_completion)
-    É um recurso de conclusão de código com reconhecimento de contexto em alguns ambientes de programação que acelera o processo de codificação de aplicativos, reduzindo erros de digitação e outros erros comuns.
+É um recurso de conclusão de código com reconhecimento de contexto em alguns ambientes de programação que acelera o processo de codificação de aplicativos, reduzindo erros de digitação e outros erros comuns.
 
 - [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense)
 
