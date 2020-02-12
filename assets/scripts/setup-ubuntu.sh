@@ -138,9 +138,17 @@
     # sudo apt-get purge mongodb-compass -y
     # sudo apt-get autoremove -y
 
-# Postgres
+# Postgres (https://tecadmin.net/install-postgresql-server-on-ubuntu/)
+    sudo apt-get install wget ca-certificates
+    wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+    sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+    sudo apt-get update
+    sudo apt-get install postgresql postgresql-contrib
 
-# Node.JS
+# Node.JS (https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
+    sudo apt-get install curl
+    curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+    sudo apt-get install nodejs
 
 # Slack
     sudo apt-get update
