@@ -138,17 +138,20 @@
     # sudo apt-get purge mongodb-compass -y
     # sudo apt-get autoremove -y
 
-# Postgres (https://tecadmin.net/install-postgresql-server-on-ubuntu/)
+# Postgres (https://tecadmin.net/install-postgresql-server-on-ubuntu/) # test fail
     sudo apt-get install wget ca-certificates
     wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
     sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
     sudo apt-get update
-    sudo apt-get install postgresql postgresql-contrib
+    sudo apt-get install postgresql postgresql-contrib -y
 
 # Node.JS (https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
     sudo apt-get install curl
-    curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-    sudo apt-get install nodejs
+    curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - # teste fail
+
+    sudo apt-get install nodejs -y # test ok
+
+    sudo apt-get purge nodejs --auto-remove -y # test ok
 
 # Slack
     sudo apt-get update
@@ -157,7 +160,7 @@
     # Uninistall
     sudo apt-get purge slack --auto-remove -y
 
-# WhatsAPP
+# WhatsAPP [quebrado]
 sudo apt-get whatsdesk_whatsdesk -y
 
 
@@ -170,13 +173,13 @@ sudo apt-get whatsdesk_whatsdesk -y
     sudo apt-get purge telegram --auto-remove -y
 
 
-# Spotfy
+# Spotfy [quebrado]
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
 echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo apt-get update
 sudo apt-get install spotify-client
 
-sudo apt-get purge spotify_spotify --auto-remove -y
+sudo apt-get purge spotify-client --auto-remove -y
 
 
 # Trello
