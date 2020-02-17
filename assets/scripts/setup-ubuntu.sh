@@ -1,8 +1,13 @@
 #!/bin/bash
+vLog=$1
+
+echo "$(date) -- info -- Início do script" >> $vLog
 
 # Atualizacao de aplicativos nativos
     sudo apt-get update &&
     sudo apt-get dist-upgrade -y &&
+
+    echo "$(date) --info -- Atualizado com sucesso"  >> $vLog
 
 # VSCODE (https://github.com/Microsoft/vscode)
     sudo snap install code --classic
