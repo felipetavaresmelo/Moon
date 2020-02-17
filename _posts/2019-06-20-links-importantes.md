@@ -16,6 +16,7 @@ sitemap: true
 # Frameworks javascript
 - [Node.JS](https://nodejs.org): engine de execução de JavaScript no servidor.
 - [Express.JS](https://expressjs.com/pt-br/): framework web, para desenvolvimento de webservices.
+- [svelte](https://svelte.dev/)
 
 # Design
 
