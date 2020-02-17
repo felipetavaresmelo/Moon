@@ -6,7 +6,6 @@ excerpt: "Links úteis"
 tag: 
 - Links úteis
 comments: true
-project: false
 sitemap: true
 ---
 
