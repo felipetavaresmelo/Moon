@@ -22,15 +22,17 @@ Pasta padrão de instalação das extensões:
 
     code --extensions-dir ~/.vscode/extensions
 
+## Run
+
+### [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+
+### [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+
 ## Theme
 
-### [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
-- Instalação 
-
-- Ativação
-    
-
 ### [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+
+### [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
 
 ## Icons
 
@@ -48,13 +50,14 @@ Pasta padrão de instalação das extensões:
 ## [Snippet](https://en.wikipedia.org/wiki/Snippet_(programming))
 
 - [Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
-- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+
+- [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 
 ## [Git](https://git-scm.com/)
 
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
-- [gitflow](https://marketplace.visualstudio.com/items?itemName=vector-of-bool.gitflow)
+- [Gitflow Actions Sidebar](https://marketplace.visualstudio.com/items?itemName=ardisaurus.gitflow-actions-sidebar)
 
 ## Visualização de documentos
 
@@ -64,6 +67,13 @@ Pasta padrão de instalação das extensões:
 - [Edit csv](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
 - [Txt Syntax](https://marketplace.visualstudio.com/items?itemName=xshrim.txt-syntax)
 - [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
+
+## Document Format
+- [shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format)
+
+## Vue.JS
+
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
 ## Links importantes
 
