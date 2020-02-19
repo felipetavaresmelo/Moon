@@ -14,7 +14,7 @@ Primeiramente para fazer a instalação do VSCODE com o comando:
 
     sudo snap install code --classic
 
-# Visual Studio Code Extensions (https://code.visualstudio.com/docs/editor/extension-gallery#_command-line-extension-management)
+# [Visual Studio Code Extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_command-line-extension-management)
 
 Pasta padrão de instalação das extensões:
 
@@ -95,8 +95,8 @@ Para abilitar uma extensão:
 
 ## Theme
 
-- [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) ( Equinusocio.vsc-material-theme )
-- [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) ( dracula-theme.theme-dracula )
+- [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) (Equinusocio.vsc-material-theme)
+- [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) (dracula-theme.theme-dracula)
 
 ## Icons
 
