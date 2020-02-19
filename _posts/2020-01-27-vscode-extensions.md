@@ -50,26 +50,34 @@ Para abilitar uma extensão:
     - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) (dbaeumer.vscode-eslint)
     - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (esbenp.prettier-vscode)
     - [VSCode Essentials Snippets](https://marketplace.visualstudio.com/items?itemName=robertoachar.vscode-essentials-snippets) (robertoachar.vscode-essentials-snippets)
-2. [Node.js Extension Pack](https://marketplace.visualstudio.com/items?itemName=waderyan.nodejs-extension-pack) (waderyan.nodejs-extension-pack)
+2. [React Extension Pack](https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack) (jawandarajbir.react-vscode-extension)
+    - [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets) (xabikos.ReactSnippets)
     - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) (dbaeumer.vscode-eslint)
     - [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)(eg2.vscode-npm-script)
     - [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) (xabikos.JavaScriptSnippets)
     - [Search node_modules](https://marketplace.visualstudio.com/items?itemName=jasonnutter.search-node-modules) (jasonnutter.search-node-modules)
     - [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) (christian-kohler.npm-intellisense)
     - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) (christian-kohler.path-intellisense)
-3. [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack) (donjayamanne.python-extension-pack)
+3. [Node.js Extension Pack](https://marketplace.visualstudio.com/items?itemName=waderyan.nodejs-extension-pack) (waderyan.nodejs-extension-pack)
+    - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) (dbaeumer.vscode-eslint)
+    - [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)(eg2.vscode-npm-script)
+    - [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) (xabikos.JavaScriptSnippets)
+    - [Search node_modules](https://marketplace.visualstudio.com/items?itemName=jasonnutter.search-node-modules) (jasonnutter.search-node-modules)
+    - [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) (christian-kohler.npm-intellisense)
+    - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) (christian-kohler.path-intellisense)
+4. [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack) (donjayamanne.python-extension-pack)
     - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (ms-python.python)
     - [MagicPython](https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython) (magicstack.MagicPython)
     - [Jinja](https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja) (wholroyd.jinja)
     - [Django](https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django) (batisteo.vscode-django)
     - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) (VisualStudioExptTeam.vscodeintellicode)
-4. [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack) (Pivotal.vscode-boot-dev-pack)
+5. [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack) (Pivotal.vscode-boot-dev-pack)
     - [Spring Boot Tools](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-spring-boot) (Pivotal.vscode-spring-boot)
     - [Cloudfoundry Manifest YML Support](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-manifest-yaml) (Pivotal.vscode-manifest-yaml)
     - [Concourse CI Pipeline Editor](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-concourse) (Pivotal.vscode-concourse)
     - [Spring Initializr Java Support](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-initializr) (vscjava.vscode-spring-initializr)
     - [Spring Boot Dashboard](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard) (vscjava.vscode-spring-boot-dashboard)
-5. Webpack
+6. Webpack
     - [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) (wix.vscode-import-cost)
 
 ## Run / Debuggers
@@ -105,6 +113,7 @@ IntelliSense é um recurso de conclusão de código com reconhecimento de contex
 
 - [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense)
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) (formulahendry.auto-close-tag)
+- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) (CoenraadS.bracket-pair-colorizer)
 
 ## [Snippet](https://en.wikipedia.org/wiki/Snippet_(programming))
 Snippet é um termo de programação para uma pequena região de código-fonte reutilizável, código de máquina ou texto. Normalmente, essas são unidades operacionais formalmente definidas para serem incorporadas em módulos de programação maiores.
@@ -119,10 +128,12 @@ Snippet é um termo de programação para uma pequena região de código-fonte r
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) (mhutchie.git-graph)
 - [Gitflow Actions Sidebar](https://marketplace.visualstudio.com/items?itemName=ardisaurus.gitflow-actions-sidebar) (ardisaurus.gitflow-actions-sidebar)
 - [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) (codezombiech.gitignore)
+- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) (donjayamanne.githistory)
 
 ## Visualização de documentos
 
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) (yzhang.markdown-all-in-one)
+- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) (shd101wyy.markdown-preview-enhanced)
 - [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json) (mohsen1.prettify-json)
 - [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml) (DotJoshJohnson.xml)
 - [Edit csv](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv) (janisdd.vscode-edit-csv)
