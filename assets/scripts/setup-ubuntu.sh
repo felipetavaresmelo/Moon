@@ -158,6 +158,9 @@ echo "$(date) -- info -- Início do script" >> $vLog
 
     sudo apt-get purge nodejs --auto-remove -y # test ok
 
+# Maria DB
+
+
 # Slack
     sudo apt-get update
     sudo apt-get install slack
@@ -177,6 +180,7 @@ sudo apt-get whatsdesk_whatsdesk -y
     # uninstall
     sudo apt-get purge telegram --auto-remove -y
 
+# Discord
 
 # Spotfy [quebrado] (https://websiteforstudents.com/install-spotify-linux-client-on-ubuntu-16-04-18-04-desktop/)
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
@@ -200,3 +204,5 @@ sudo apt-get purge spotify-client --auto-remove -y
 # Skype
 
 # Postman
+
+# soapui
