@@ -3,19 +3,22 @@ vLog=$1
 
 echo "$(date) -- info -- Início do script" >> $vLog
 
+#Lista de aplicativos SNAP
+    snap list
 # Atualizacao de aplicativos nativos
     sudo apt-get update &&
     sudo apt-get dist-upgrade -y &&
 
     echo "$(date) --info -- Atualizado com sucesso"  >> $vLog
 
+
 # VSCODE (https://github.com/Microsoft/vscode)
     sudo snap install code --classic
 
 # GIMP (https://www.gimp.org/)
-    sudo apt-get install gimp &&
-
+    sudo snap install gimp
     # Uninstall
+    
     # sudo apt-get purge gimp --auto-remove -y
 
 # Inkscape (https://wiki.inkscape.org/wiki/index.php/Installing_Inkscape)
@@ -183,12 +186,9 @@ echo "$(date) -- info -- Início do script" >> $vLog
 # Telegram (https://desktop.telegram.org/)
     sudo snap install telegram-desktop
 
-<<<<<<< HEAD
     # uninstall (quebrado)
     sudo snap remove telegram-desktop
-=======
 # Discord
->>>>>>> c88c41aaa19c08b21bbb9e003e1c6cd0f8d42e0d
 
 # Spotfy [quebrado] (https://websiteforstudents.com/install-spotify-linux-client-on-ubuntu-16-04-18-04-desktop/)
     sudo snap remove spotify
@@ -227,6 +227,9 @@ echo "$(date) -- info -- Início do script" >> $vLog
 
 # BOX Drive
 
-
-# https://snapcraft.io/
 # soapui
+
+
+# https://snapcraft.io/store
+# https://appimage.org/
+# https://flathub.org/home
