@@ -65,30 +65,37 @@ echo "$(date) -- info -- Início do script" >> $vLog
 
 
 # FreeMind (http://freemind.sourceforge.net/wiki/index.php/FreeMind_on_Linux#Install_FreeMind_Manually)
+    sudo snap install freemind
+    #unistall
+    sudo snap remove freemind
 
 # GnuCash (https://tipsonubuntu.com/2018/07/17/install-gnucash-3-2-ubuntu-18-04-lts/)
     sudo add-apt-repository ppa:sicklylife/gnucash &&
     sudo apt-get install gnucash &&
+
+    sudo snap install gnucash-jz
     
     # Uninstall
+    sudo snap remove gnucash-jz
     # sudo apt-get purge gnucash -y 
     # sudo apt-get autoremove -y 
 
 # FileZilla (https://www.edivaldobrito.com.br/cliente-ftp-filezilla-no-ubuntu-16-04/)
-    sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu $(lsb_release -cs)-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
-    wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
-    sudo apt-get update
-    sudo apt-get install filezilla
+    # sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu $(lsb_release -cs)-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
+    # wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+    # sudo apt-get update
+    # sudo apt-get install filezilla
 
+    sudo snap install filezilla --edge
     # Uninstall
-    # sudo apt-get remove filezilla --auto-remove -y
+    sudo snap remove filezilla
 
 # OBS Studio (https://www.diolinux.com.br/2016/04/como-instalar-o-open-broadcaster-no-ubuntu-1604.html)
-    sudo add-apt-repository ppa:obsproject/obs-studio -y && 
-    sudo apt-get update && 
-    sudo apt-get install obs-studio -y
+    sudo snap install obs-studio
 
     # Uninstall
+    sudo snap remove obs-studio
+
     # sudo apt-get purge obs-studio -y 
     # sudo apt-get autoremove -y 
 
@@ -159,35 +166,43 @@ echo "$(date) -- info -- Início do script" >> $vLog
     sudo apt-get purge nodejs --auto-remove -y # test ok
 
 # Slack
-    sudo apt-get update
-    sudo apt-get install slack
-
+    sudo snap install slack --classic
     # Uninistall
-    sudo apt-get purge slack --auto-remove -y
+    sudo snap remove slack
 
 # WhatsAPP [quebrado]
-sudo apt-get whatsdesk_whatsdesk -y
+    sudo snap install whatsdesk
+
+    # unistall
+    sudo snap remove whatsdesk
 
 
-# Telegram
-    sudo add-apt-repository ppa:atareao/telegram -y
-    sudo apt-get update
-    sudo apt-get install telegram
+# Telegram (https://desktop.telegram.org/)
+    sudo snap install telegram-desktop
 
-    # uninstall
-    sudo apt-get purge telegram --auto-remove -y
-
+    # uninstall (quebrado)
+    sudo snap remove telegram-desktop
 
 # Spotfy [quebrado] (https://websiteforstudents.com/install-spotify-linux-client-on-ubuntu-16-04-18-04-desktop/)
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
-echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt-get update
-sudo apt-get install spotify-client
+    sudo snap remove spotify
 
-sudo apt-get purge spotify-client --auto-remove -y
+    # unistall
+    sudo snap remove spotify
 
+# Trello (https://gist.github.com/iPublicis/925c5f4b27e73ec771868be87d16ffbd)
 
-# Trello
+    sudo wget https://github.com/danielchatfield/trello-desktop/releases/download/v0.1.9/Trello-linux-0.1.9.zip -O trello.zip &&
+    sudo mkdir /opt/trello &&
+    sudo unzip trello.zip -d /opt/trello/ &&
+    sudo rm  trello.zip &&
+    sudo ln -sf /opt/trello/Trello /usr/bin/trello &&
+    echo -e '[Desktop Entry]\n Version=1.0\n Name=Trello\n Exec=/usr/bin/trello\n Icon=/opt/trello/resources/app/static/Icon.png\n Type=Application\n Categories=Application' | sudo tee /usr/share/applications/trello.desktop &&
+    sudo chmod +x /usr/share/applications/trello.desktop &&
+
+    # unistall
+    sudo rm -rf /opt/trello &&
+    sudo rm /usr/bin/trello &&
+    sudo rm /usr/share/applications/trello.desktop &&
 
 # VirtualBox
 
@@ -200,3 +215,10 @@ sudo apt-get purge spotify-client --auto-remove -y
 # Skype
 
 # Postman
+
+# Epson printer
+
+# BOX Drive
+
+
+# https://snapcraft.io/
