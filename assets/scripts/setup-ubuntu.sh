@@ -165,6 +165,9 @@ echo "$(date) -- info -- Início do script" >> $vLog
 
     sudo apt-get purge nodejs --auto-remove -y # test ok
 
+# Maria DB
+
+
 # Slack
     sudo snap install slack --classic
     # Uninistall
@@ -180,8 +183,12 @@ echo "$(date) -- info -- Início do script" >> $vLog
 # Telegram (https://desktop.telegram.org/)
     sudo snap install telegram-desktop
 
+<<<<<<< HEAD
     # uninstall (quebrado)
     sudo snap remove telegram-desktop
+=======
+# Discord
+>>>>>>> c88c41aaa19c08b21bbb9e003e1c6cd0f8d42e0d
 
 # Spotfy [quebrado] (https://websiteforstudents.com/install-spotify-linux-client-on-ubuntu-16-04-18-04-desktop/)
     sudo snap remove spotify
@@ -222,3 +229,4 @@ echo "$(date) -- info -- Início do script" >> $vLog
 
 
 # https://snapcraft.io/
+# soapui
