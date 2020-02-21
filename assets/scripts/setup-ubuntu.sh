@@ -67,6 +67,19 @@ echo "$(date) -- info -- Início do script" >> $vLog
     # sudo apt-get autoremove -y
 
 
+# Brave Browser (https://brave-browser.readthedocs.io/en/latest/installing-brave.html#linux)
+
+    sudo apt install apt-transport-https curl
+
+    curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+
+    echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+
+    sudo apt update
+
+    sudo apt install brave-browser
+
+
 # FreeMind (http://freemind.sourceforge.net/wiki/index.php/FreeMind_on_Linux#Install_FreeMind_Manually)
     sudo snap install freemind
     #unistall
@@ -213,7 +226,17 @@ echo "$(date) -- info -- Início do script" >> $vLog
     sudo rm /usr/bin/trello &&
     sudo rm /usr/share/applications/trello.desktop &&
 
-# VirtualBox
+# VirtualBox (https://websiteforstudents.com/installing-virtualbox-5-2-ubuntu-17-04-17-10/)
+    sudo apt-get -y install gcc make linux-headers-$(uname -r) dkms
+    wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+    wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+    sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -sc) contrib" >> /etc/apt/sources.list'
+    sudo apt-get update
+    sudo apt-get install virtualbox-5.2
+    curl -O http://download.virtualbox.org/virtualbox/5.2.0/Oracle_VM_VirtualBox_Extension_Pack-5.2.0-118431.vbox-extpack
+    sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.2.0-118431.vbox-extpack
+
+
 
 # Stremio
 
