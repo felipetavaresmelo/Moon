@@ -171,6 +171,9 @@ echo "$(date) -- info -- Início do script" >> $vLog
 # Maria DB
 
 
+# dbeaver
+    sudo snap install dbeaver-ce
+
 # Slack
     sudo snap install slack --classic
     # Uninistall
@@ -178,10 +181,8 @@ echo "$(date) -- info -- Início do script" >> $vLog
 
 # WhatsAPP [quebrado]
     sudo snap install whatsdesk
-
     # unistall
     sudo snap remove whatsdesk
-
 
 # Telegram (https://desktop.telegram.org/)
     sudo snap install telegram-desktop
@@ -189,6 +190,7 @@ echo "$(date) -- info -- Início do script" >> $vLog
     # uninstall (quebrado)
     sudo snap remove telegram-desktop
 # Discord
+    sudo snap install discord
 
 # Spotfy [quebrado] (https://websiteforstudents.com/install-spotify-linux-client-on-ubuntu-16-04-18-04-desktop/)
     sudo snap remove spotify
@@ -217,17 +219,23 @@ echo "$(date) -- info -- Início do script" >> $vLog
 
 # Thunderbird
 
-# VLC Vídeos
+# VLC Vídeos  
+  sudo snap install vlc
 
 # Skype
+  sudo snap install skype --classic
 
 # Postman
+  sudo snap install postman
 
 # Epson printer
 
 # BOX Drive
 
 # soapui
+
+# youtube-dl
+sudo snap install youtube-dl
 
 
 # https://snapcraft.io/store
