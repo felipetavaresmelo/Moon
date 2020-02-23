@@ -261,6 +261,21 @@ echo "$(date) -- info -- Início do script" >> $vLog
 sudo snap install youtube-dl
 
 
+# stacer( https://oguzhaninan.github.io/Stacer-Web/ )
+sudo add-apt-repository ppa:oguzhaninan/stacer
+sudo apt-get update
+sudo apt-get install stacer
+# uninstall
+
+
+
 # https://snapcraft.io/store
+
 # https://appimage.org/
-# https://flathub.org/home
+## https://www.appimagehub.com/
+
+# https://flatpak.org/
+## https://flathub.org/home
+
+
+https://linuxhint.com/uninstall-debian-packages/
