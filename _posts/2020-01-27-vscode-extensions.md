@@ -10,11 +10,12 @@ comments: true
 ---
 
 # Instação do [VSCODE no Linux Ubuntu](https://snapcraft.io/store)
+
 Primeiramente para fazer a instalação do VSCODE com o comando:
 
     sudo snap install code --classic
 
-# [Visual Studio Code Extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_command-line-extension-management)
+## [Visual Studio Code Extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_command-line-extension-management)
 
 Pasta padrão de instalação das extensões:
 
@@ -35,6 +36,114 @@ Para desinstalar uma extensão:
 Para abilitar uma extensão:
 
     code --enable-proposed-api <extension-id>
+
+## Theme
+
+- [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) (Equinusocio.vsc-material-theme)
+
+## Icons
+
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) (PKief.material-icon-theme)
+
+
+### Formatters
+
+- Destaque fechamentos de tags: [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) (CoenraadS.bracket-pair-colorizer)
+
+### Debuggers
+    
+    Debugger é um programa de computador usado para testar outros programas e fazer sua depuração, que consiste em encontrar os defeitos do programa.
+
+- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) (formulahendry.code-runner)
+
+### Linter
+    Linter é uma ferramenta que analisa o código-fonte para sinalizar erros de programação, bugs, erros estilísticos e construções suspeitas.
+
+- [Wiki](https://en.wikipedia.org/wiki/Lint_(software))
+
+
+### Code completion/IntelliSense
+    IntelliSense é um recurso de conclusão de código com reconhecimento de contexto em alguns ambientes de programação que acelera o processo de codificação de aplicativos, reduzindo erros de digitação e outros erros comuns.
+
+- [Wiki](https://en.wikipedia.org/wiki/Intelligent_code_completion)
+- [IntelliSense in Visual Studio Code](https://code.visualstudio.com/docs/editor/intellisense)
+
+### Snippet
+    Snippet é um termo de programação para uma pequena região de código-fonte reutilizável, código de máquina ou texto. Normalmente, essas são unidades operacionais formalmente definidas para serem incorporadas em módulos de programação maiores.
+
+- [Wiki](https://en.wikipedia.org/wiki/Snippet_(programming))
+- [Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+
+
+
+## HTML
+
+- Formatter
+    - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) (formulahendry.auto-close-tag)
+    - [Sorting HTML and Jade attributes](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-attrs-sorter) (mrmlnc.vscode-attrs-sorter)
+- Snippets
+    - [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets) (abusaidm.html-snippets)
+
+## CSS
+
+- [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion) (Zignd.html-css-class-completion)
+
+## JavaScript
+
+- Formatter
+    - Vue.JS: [vue-beautify](https://marketplace.visualstudio.com/items?itemName=peakchen90.vue-beautify) (peakchen90.vue-beautify)
+- Linter
+    - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) (dbaeumer.vscode-eslint)
+- Snippet
+    - [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) 
+- Debugger
+    - [JavaScript Debugger (Nightly)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug-nightly) (ms-vscode.js-debug-nightly)
+    - [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) (msjsdiag.debugger-for-chrome)
+    - [Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug) (firefox-devtools.vscode-firefox-debug)
+    - [Node Debug](https://marketplace.visualstudio.com/items?itemName=ms-vscode.node-debug2) (ms-vscode.node-debug2)
+    - [Debugger for Electron](https://marketplace.visualstudio.com/items?itemName=kodetech.electron-debug) (kodetech.electron-debug)
+    - [React Native Tools](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native) (msjsdiag.vscode-react-native)
+
+## Python
+
+- Debuggers
+    - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (ms-python.python)
+
+## [Shell Script](https://pt.wikipedia.org/wiki/Shell_script)
+
+- Formatter
+    - Shell Scripts: [shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format) (foxundermoon.shell-format)
+- Debuggers
+    - [Bash Debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug) (rogalmic.bash-debug)
+
+## [Git](https://git-scm.com/)
+
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) (eamodio.gitlens)
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) (mhutchie.git-graph)
+- [Gitflow Actions Sidebar](https://marketplace.visualstudio.com/items?itemName=ardisaurus.gitflow-actions-sidebar) (ardisaurus.gitflow-actions-sidebar)
+- [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) (codezombiech.gitignore)
+- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) (donjayamanne.githistory)
+
+## Markdon
+
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (davidanson.vscode-markdownlint)
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) (yzhang.markdown-all-in-one)
+- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) (shd101wyy.markdown-preview-enhanced)
+
+## Documentação
+
+- [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis) (joelday.docthis)
+
+## Integração
+
+- [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json) (mohsen1.prettify-json)
+- [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml) (DotJoshJohnson.xml)
+- [Edit csv](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv) (janisdd.vscode-edit-csv)
+- [Txt Syntax](https://marketplace.visualstudio.com/items?itemName=xshrim.txt-syntax) (xshrim.txt-syntax)
+
+## Emuladores Mobile
+
+- [Android iOS Emulator](https://marketplace.visualstudio.com/items?itemName=DiemasMichiels.emulate) (DiemasMichiels.emulate)
 
 ## Extension Packs
 
@@ -79,71 +188,6 @@ Para abilitar uma extensão:
     - [Spring Boot Dashboard](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard) (vscjava.vscode-spring-boot-dashboard)
 6. Webpack
     - [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) (wix.vscode-import-cost)
-
-## Run / Debuggers
-
-- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) (formulahendry.code-runner)
-- [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) (msjsdiag.debugger-for-chrome)
-- [Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug) (firefox-devtools.vscode-firefox-debug)
-- [React Native Tools](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native) (msjsdiag.vscode-react-native)
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (ms-python.python)
-- [Node Debug](https://marketplace.visualstudio.com/items?itemName=ms-vscode.node-debug2) (ms-vscode.node-debug2)
-- [Bash Debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug) (rogalmic.bash-debug)
-- [JavaScript Debugger (Nightly)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug-nightly) (ms-vscode.js-debug-nightly)
-- [Debugger for Electron](https://marketplace.visualstudio.com/items?itemName=kodetech.electron-debug) (kodetech.electron-debug)
-- [Android iOS Emulator](https://marketplace.visualstudio.com/items?itemName=DiemasMichiels.emulate) (DiemasMichiels.emulate)
-
-## Theme
-
-- [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) (Equinusocio.vsc-material-theme)
-- [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) (dracula-theme.theme-dracula)
-
-## Icons
-
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) (PKief.material-icon-theme)
-
-## [Linter](https://en.wikipedia.org/wiki/Lint_(software))
-Linter é uma ferramenta que analisa o código-fonte para sinalizar erros de programação, bugs, erros estilísticos e construções suspeitas.
-
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) (dbaeumer.vscode-eslint)
-- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (davidanson.vscode-markdownlint)
-
-## [IntelliSense](https://en.wikipedia.org/wiki/Intelligent_code_completion)
-IntelliSense é um recurso de conclusão de código com reconhecimento de contexto em alguns ambientes de programação que acelera o processo de codificação de aplicativos, reduzindo erros de digitação e outros erros comuns.
-
-- [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense)
-- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) (formulahendry.auto-close-tag)
-- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) (CoenraadS.bracket-pair-colorizer)
-
-## [Snippet](https://en.wikipedia.org/wiki/Snippet_(programming))
-Snippet é um termo de programação para uma pequena região de código-fonte reutilizável, código de máquina ou texto. Normalmente, essas são unidades operacionais formalmente definidas para serem incorporadas em módulos de programação maiores.
-
-- [Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
-- [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) (xabikos.JavaScriptSnippets)
-- [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis) (joelday.docthis)
-
-## [Git](https://git-scm.com/)
-
-- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) (eamodio.gitlens)
-- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) (mhutchie.git-graph)
-- [Gitflow Actions Sidebar](https://marketplace.visualstudio.com/items?itemName=ardisaurus.gitflow-actions-sidebar) (ardisaurus.gitflow-actions-sidebar)
-- [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) (codezombiech.gitignore)
-- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) (donjayamanne.githistory)
-
-## Visualização de documentos
-
-- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) (yzhang.markdown-all-in-one)
-- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) (shd101wyy.markdown-preview-enhanced)
-- [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json) (mohsen1.prettify-json)
-- [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml) (DotJoshJohnson.xml)
-- [Edit csv](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv) (janisdd.vscode-edit-csv)
-- [Txt Syntax](https://marketplace.visualstudio.com/items?itemName=xshrim.txt-syntax) (xshrim.txt-syntax)
-- [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf) (tomoki1207.pdf)
-
-## Document Format
-
-- [shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format) (foxundermoon.shell-format)
-
 
 ## Links importantes
 
