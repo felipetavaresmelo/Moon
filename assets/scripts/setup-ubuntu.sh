@@ -261,12 +261,17 @@ echo "$(date) -- info -- Início do script" >> $vLog
 sudo snap install youtube-dl
 
 
-# stacer( https://oguzhaninan.github.io/Stacer-Web/ )
+# stacer( https://oguzhaninan.github.io/Stacer-Web/ ) (quebrado)
 sudo add-apt-repository ppa:oguzhaninan/stacer
 sudo apt-get update
 sudo apt-get install stacer
 # uninstall
 
+# Android Studio
+    sudo snap install android-studio --classic
+
+    #uninstall
+    sudo snap remove android-studio 
 
 
 # https://snapcraft.io/store
