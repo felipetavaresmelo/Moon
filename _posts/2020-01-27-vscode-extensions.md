@@ -188,6 +188,11 @@ Para abilitar uma extensão:
     - [Spring Boot Dashboard](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard) (vscjava.vscode-spring-boot-dashboard)
 6. Webpack
     - [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) (wix.vscode-import-cost)
+7. [Live Share Extension Pack](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack) (MS-vsliveshare.vsliveshare-pack)
+   - [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)(MS-vsliveshare.vsliveshare)
+   - [Live Share Audio](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-audio)(MS-vsliveshare.vsliveshare-audio)
+   - [Live Share Chat](https://marketplace.visualstudio.com/items?itemName=karigari.chat)(karigari.chat)
+   - [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)(johnpapa.vscode-peacock)
 
 ## Links importantes
 
