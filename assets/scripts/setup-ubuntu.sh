@@ -279,7 +279,7 @@ sudo apt-get install stacer
 # JAVA JDK
 sudo apt install default-jdk -y
 
-# Apache Tomcat 
+# Apache Tomcat (https://www.digitalocean.com/community/tutorials/install-tomcat-9-ubuntu-1804)
 sudo groupadd tomcat
 sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 cd /tmp
@@ -291,6 +291,11 @@ sudo chgrp -R tomcat /opt/tomcat
 sudo chmod -R g+r conf
 sudo chmod g+x conf
 sudo chown -R tomcat webapps/ work/ temp/ logs/
+cd /etc/systemd/system & sudo curl -O https://felipetavaresmelo.github.io/assets/properties/tomcat.service
+sudo systemctl daemon-reload
+sudo systemctl start tomcat
+#sudo systemctl status tomcat
+
 
 
 
