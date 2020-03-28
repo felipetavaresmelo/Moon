@@ -124,6 +124,10 @@ Para abilitar uma extensão:
 - [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) (codezombiech.gitignore)
 - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) (donjayamanne.githistory)
 
+## Terminal
+
+- [Hyper in VS Code](https://marketplace.visualstudio.com/items?itemName=LevitatingBusinessMan.hyper-vsc)(LevitatingBusinessMan.hyper-vsc)
+
 ## Markdon
 
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (davidanson.vscode-markdownlint)
