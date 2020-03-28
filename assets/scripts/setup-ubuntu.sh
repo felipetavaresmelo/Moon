@@ -66,6 +66,11 @@ echo "$(date) -- info -- Início do script" >> $vLog
     # sudo apt-get purge google-chrome-stable --auto-remove -y
     # sudo apt-get autoremove -y
 
+# Chromium
+
+    sudo snap install chromium
+
+
 
 # Brave Browser (https://brave-browser.readthedocs.io/en/latest/installing-brave.html#linux)
 
@@ -243,13 +248,16 @@ echo "$(date) -- info -- Início do script" >> $vLog
 # Thunderbird
 
 # VLC Vídeos  
-  sudo snap install vlc
+    sudo snap install vlc
 
 # Skype
-  sudo snap install skype --classic
+    sudo snap install skype --classic
 
 # Postman
-  sudo snap install postman
+    sudo snap install postman
+
+# Insomnia (https://insomnia.rest/)
+    sudo snap install insomnia
 
 # Epson printer
 
