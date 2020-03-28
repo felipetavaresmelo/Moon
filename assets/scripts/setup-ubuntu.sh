@@ -268,6 +268,9 @@ echo "$(date) -- info -- Início do script" >> $vLog
 # youtube-dl
 sudo snap install youtube-dl
 
+# youtube-dl-gui (https://github.com/MrS0m30n3/youtube-dl-gui)
+
+
 
 # stacer( https://oguzhaninan.github.io/Stacer-Web/ ) (quebrado)
 sudo add-apt-repository ppa:oguzhaninan/stacer
@@ -303,8 +306,6 @@ cd /etc/systemd/system & sudo curl -O https://felipetavaresmelo.github.io/assets
 sudo systemctl daemon-reload
 sudo systemctl start tomcat
 #sudo systemctl status tomcat
-
-
 
 
 # https://snapcraft.io/store
