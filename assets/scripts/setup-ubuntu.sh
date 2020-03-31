@@ -6,8 +6,8 @@ echo "$(date) -- info -- Início do script" >> $vLog
 #Lista de aplicativos SNAP
     snap list
 # Atualizacao de aplicativos nativos
-    sudo apt-get update &&
-    sudo apt-get dist-upgrade -y &&
+    sudo apt-get update &
+    sudo apt-get dist-upgrade -y &
 
     echo "$(date) --info -- Atualizado com sucesso"  >> $vLog
 
@@ -22,14 +22,14 @@ echo "$(date) -- info -- Início do script" >> $vLog
     # sudo apt-get purge gimp --auto-remove -y
 
 # Inkscape (https://wiki.inkscape.org/wiki/index.php/Installing_Inkscape)
-    sudo apt-get update &&
-    sudo apt-get install inkscape &&
+    sudo apt-get update &
+    sudo apt-get install inkscape &
 
     # uninstall
     # sudo apt-get purge inkscape --auto-remove -y
 
 # Peek - an animated GIF recorder (https://github.com/phw/peek)
-    sudo add-apt-repository ppa:peek-developers/stable -y &&
+    sudo add-apt-repository ppa:peek-developers/stable -y &
     sudo apt update
     sudo apt install peek -y
 
@@ -37,9 +37,9 @@ echo "$(date) -- info -- Início do script" >> $vLog
     # sudo apt-get purge peek --auto-remove -y
 
 # Dia (http://elinuxbook.com/install-dia-diagram-editor-dia-editor-in-ubuntu-16-04-a-open-source-visio-alternative-for-linux/)
-    sudo apt-get update && 
-    sudo apt-get install dia -y && 
-    sudo dpkg -l dia &&  # confirmar instalacao
+    sudo apt-get update &
+    sudo apt-get install dia -y &
+    sudo dpkg -l dia & # confirmar instalacao
 
     # uninstall
     # sudo apt-get purge dia --auto-remove -y
@@ -53,10 +53,10 @@ echo "$(date) -- info -- Início do script" >> $vLog
 
     # Instacao
     # wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add - && # Setup key
-    sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' && # Setup repository
-    wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - && # Setup key
-    sudo apt-get update &&
-    sudo apt-get install google-chrome-stable && # Setup package
+    sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' & # Setup repository
+    wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - & # Setup key
+    sudo apt-get update &
+    sudo apt-get install google-chrome-stable & # Setup package
     # sudo apt-get install google-chrome-unstable && # Setup package
 
     # Chrome (atualizacoes)
@@ -91,8 +91,8 @@ echo "$(date) -- info -- Início do script" >> $vLog
     sudo snap remove freemind
 
 # GnuCash (https://tipsonubuntu.com/2018/07/17/install-gnucash-3-2-ubuntu-18-04-lts/)
-    sudo add-apt-repository ppa:sicklylife/gnucash &&
-    sudo apt-get install gnucash &&
+    sudo add-apt-repository ppa:sicklylife/gnucash &
+    sudo apt-get install gnucash &
 
     sudo snap install gnucash-jz
     
@@ -160,11 +160,11 @@ echo "$(date) -- info -- Início do script" >> $vLog
     # sudo apt-get autoremove -y
 
 # MongoDB Compass (https://stackoverflow.com/questions/53122804/mongodb-compass-cannot-be-opened-in-ubuntu-18-10)
-    apt-get update &&
-    wget https://downloads.mongodb.com/compass/mongodb-compass_1.15.1_amd64.deb &&
-    sudo dpkg -i mongodb-compass_1.15.1_amd64.deb &&
-    sudo apt --fix-broken install &&
-    sudo apt -y install libgconf2-4 &&
+    apt-get update &
+    wget https://downloads.mongodb.com/compass/mongodb-compass_1.15.1_amd64.deb &
+    sudo dpkg -i mongodb-compass_1.15.1_amd64.deb &
+    sudo apt --fix-broken install &
+    sudo apt -y install libgconf2-4 &
     mongodb-compass; 
 
     # Uninstall
@@ -218,18 +218,18 @@ echo "$(date) -- info -- Início do script" >> $vLog
 
 # Trello (https://gist.github.com/iPublicis/925c5f4b27e73ec771868be87d16ffbd)
 
-    sudo wget https://github.com/danielchatfield/trello-desktop/releases/download/v0.1.9/Trello-linux-0.1.9.zip -O trello.zip &&
-    sudo mkdir /opt/trello &&
-    sudo unzip trello.zip -d /opt/trello/ &&
-    sudo rm  trello.zip &&
-    sudo ln -sf /opt/trello/Trello /usr/bin/trello &&
-    echo -e '[Desktop Entry]\n Version=1.0\n Name=Trello\n Exec=/usr/bin/trello\n Icon=/opt/trello/resources/app/static/Icon.png\n Type=Application\n Categories=Application' | sudo tee /usr/share/applications/trello.desktop &&
-    sudo chmod +x /usr/share/applications/trello.desktop &&
+    sudo wget https://github.com/danielchatfield/trello-desktop/releases/download/v0.1.9/Trello-linux-0.1.9.zip -O trello.zip &
+    sudo mkdir /opt/trello &
+    sudo unzip trello.zip -d /opt/trello/ &
+    sudo rm  trello.zip &
+    sudo ln -sf /opt/trello/Trello /usr/bin/trello &
+    echo -e '[Desktop Entry]\n Version=1.0\n Name=Trello\n Exec=/usr/bin/trello\n Icon=/opt/trello/resources/app/static/Icon.png\n Type=Application\n Categories=Application' | sudo tee /usr/share/applications/trello.desktop &
+    sudo chmod +x /usr/share/applications/trello.desktop &
 
     # unistall
-    sudo rm -rf /opt/trello &&
-    sudo rm /usr/bin/trello &&
-    sudo rm /usr/share/applications/trello.desktop &&
+    sudo rm -rf /opt/trello &
+    sudo rm /usr/bin/trello &
+    sudo rm /usr/share/applications/trello.desktop &
 
 # VirtualBox (https://websiteforstudents.com/installing-virtualbox-5-2-ubuntu-17-04-17-10/)
     sudo apt-get -y install gcc make linux-headers-$(uname -r) dkms
