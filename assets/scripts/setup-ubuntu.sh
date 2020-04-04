@@ -1,29 +1,49 @@
-#!/bin/sh
-vLog=$1
+#!/bin/bash
+LOG_SETUP=$HOME/ubuntu-setup.log &
 
-echo "$(date) -- info -- Início do script" >> $vLog
+sudo echo "$(date +%D-%T-%N) -- info -- Início do script" >> $LOG_SETUP &
+
 # Criar variaveis de ambiente
-mfdir $home/ubuntu-setup.log
 
 # Criar pastas padrão
-mkdir $HOME/projects
+mkdir $HOME/projects &
+
+echo "$(date +%D-%T-%N) -- info -- Pastas padrão criadas"  >> $LOG_SETUP &
 
 #Lista de aplicativos SNAP
-    snap list
-# Atualizacao de aplicativos nativos
-    sudo apt-get update &
-    sudo apt-get dist-upgrade -y &
+snap list &
 
-    echo "$(date) --info -- Atualizado com sucesso"  >> $vLog
+# Atualizacao de aplicativos nativos
+sudo apt-get update &
+sudo apt-get dist-upgrade -y &
+
+echo "$(date +%D-%T-%N) -- info -- Aplicativos nativos atualizados"  >> $LOG_SETUP &
 
 # Chromium (https://www.chromium.org/)
-sudo snap install chromium
+sudo snap install chromium &
+
+echo "$(date +%D-%T-%N) -- info -- Chromium instalado com sucesso"  >> $LOG_SETUP &
+
 
 # git (https://git-scm.com/download/linux)
 sudo apt-get install git -Y
 
+echo "$(date +%D-%T-%N) -- info -- git instalado com sucesso"  >> $LOG_SETUP &
+
 # VSCODE (https://github.com/Microsoft/vscode)
-    sudo snap install code --classic
+sudo snap install code --classic
+
+echo "$(date +%D-%T-%N) -- info -- code instalado com sucesso"  >> $LOG_SETUP &
+
+
+code --install-extension Equinusocio.vsc-material-theme &
+code --enable-proposed-api Equinusocio.vsc-material-theme
+
+code --install-extension PKief.material-icon-theme &
+
+echo "$(date +%D-%T-%N) -- info -- code-extensions instalado com sucesso"  >> $LOG_SETUP &
+
+
 
 # GIMP (https://www.gimp.org/)
     sudo snap install gimp
@@ -322,3 +342,5 @@ sudo systemctl start tomcat
 
 
 https://linuxhint.com/uninstall-debian-packages/
+
+unset LOG_SETUP # excluir variável
