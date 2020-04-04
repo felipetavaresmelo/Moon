@@ -1,7 +1,12 @@
-#!/bin/bash
+#!/bin/sh
 vLog=$1
 
 echo "$(date) -- info -- Início do script" >> $vLog
+# Criar variaveis de ambiente
+mfdir $home/ubuntu-setup.log
+
+# Criar pastas padrão
+mkdir $HOME/projects
 
 #Lista de aplicativos SNAP
     snap list
@@ -11,6 +16,11 @@ echo "$(date) -- info -- Início do script" >> $vLog
 
     echo "$(date) --info -- Atualizado com sucesso"  >> $vLog
 
+# Chromium (https://www.chromium.org/)
+sudo snap install chromium
+
+# git (https://git-scm.com/download/linux)
+sudo apt-get install git -Y
 
 # VSCODE (https://github.com/Microsoft/vscode)
     sudo snap install code --classic
@@ -65,12 +75,6 @@ echo "$(date) -- info -- Início do script" >> $vLog
     # Chrome (desistalar)
     # sudo apt-get purge google-chrome-stable --auto-remove -y
     # sudo apt-get autoremove -y
-
-# Chromium
-
-    sudo snap install chromium
-
-
 
 # Brave Browser (https://brave-browser.readthedocs.io/en/latest/installing-brave.html#linux)
 
