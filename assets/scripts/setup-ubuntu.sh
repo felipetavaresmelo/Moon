@@ -1,19 +1,22 @@
 #!/bin/sh
 vLog=$1
 
-echo "$(date) -- info -- Início do script" >> $vLog
 # Criar variaveis de ambiente
-mfdir $home/ubuntu-setup.log
-
-# Criar pastas padrão
+log_file=$home/ubuntu-setup.log
+if [ ! -e "${log_file}" ]; then
+    mfdir $log_file
+else
+    echo "Found existing file $file_path"
+fi;
 
 projects_dir=$HOME/projects
-
 if [ ! -d "projects_dir}" ]; then
     mkdir -p "$projects_dir"
 else
     echo "Found projects dir $projects_dir"
 fi
+
+echo "$(date) -- info -- Início do script" >> $vLog
 
 #Lista de aplicativos SNAP
     snap list
