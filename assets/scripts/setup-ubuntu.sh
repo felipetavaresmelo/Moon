@@ -6,7 +6,14 @@ echo "$(date) -- info -- Início do script" >> $vLog
 mfdir $home/ubuntu-setup.log
 
 # Criar pastas padrão
-mkdir $HOME/projects
+
+projects_dir=$HOME/projects
+
+if [ ! -d "projects_dir}" ]; then
+    mkdir -p "$projects_dir"
+else
+    echo "Found projects dir $projects_dir"
+fi
 
 #Lista de aplicativos SNAP
     snap list
