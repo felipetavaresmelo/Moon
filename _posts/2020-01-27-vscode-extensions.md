@@ -31,24 +31,20 @@ Para instalar uma extensão:
 
 Para desinstalar uma extensão:
 
-    code --uninstall-extension <extension-id>
+code --uninstall-extension <extension-id>
 
 Para abilitar uma extensão:
 
-    code --enable-proposed-api <extension-id>
+code --enable-proposed-api <extension-id>
 
 ## Theme
 
+- [Dracula Theme](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) (dracula-theme.theme-dracula)
 - [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) (Equinusocio.vsc-material-theme)
 
 ## Icons
 
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) (PKief.material-icon-theme)
-
-
-### Formatters
-
-- Destaque fechamentos de tags: [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) (CoenraadS.bracket-pair-colorizer)
 
 ### Debuggers
     
@@ -56,31 +52,34 @@ Para abilitar uma extensão:
 
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) (formulahendry.code-runner)
 
-### Linter
+### Formatters
+
+- Destaque fechamentos de tags: [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) (CoenraadS.bracket-pair-colorizer)
+- HTML: 
+    - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) (formulahendry.auto-close-tag)
+    ```bash
+    code --install-extension formulahendry.code-runner 
+    ```
+    - [Sorting HTML and Jade attributes](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-attrs-sorter) (mrmlnc.vscode-attrs-sorter)
+
+
+### [Linter](https://en.wikipedia.org/wiki/Lint_)
     Linter é uma ferramenta que analisa o código-fonte para sinalizar erros de programação, bugs, erros estilísticos e construções suspeitas.
 
-- [Wiki](https://en.wikipedia.org/wiki/Lint_(software))
 
-
-### Code completion/IntelliSense
+### [Code completion/IntelliSense](https://en.wikipedia.org/wiki/Intelligent_code_completion)
     IntelliSense é um recurso de conclusão de código com reconhecimento de contexto em alguns ambientes de programação que acelera o processo de codificação de aplicativos, reduzindo erros de digitação e outros erros comuns.
 
-- [Wiki](https://en.wikipedia.org/wiki/Intelligent_code_completion)
 - [IntelliSense in Visual Studio Code](https://code.visualstudio.com/docs/editor/intellisense)
 
-### Snippet
+### [Snippet](https://en.wikipedia.org/wiki/Snippet_(programming))
     Snippet é um termo de programação para uma pequena região de código-fonte reutilizável, código de máquina ou texto. Normalmente, essas são unidades operacionais formalmente definidas para serem incorporadas em módulos de programação maiores.
 
-- [Wiki](https://en.wikipedia.org/wiki/Snippet_(programming))
 - [Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
-
-
 
 ## HTML
 
 - Formatter
-    - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) (formulahendry.auto-close-tag)
-    - [Sorting HTML and Jade attributes](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-attrs-sorter) (mrmlnc.vscode-attrs-sorter)
 - Snippets
     - [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets) (abusaidm.html-snippets)
 
@@ -112,9 +111,12 @@ Para abilitar uma extensão:
 ## [Shell Script](https://pt.wikipedia.org/wiki/Shell_script)
 
 - Formatter
-    - Shell Scripts: [shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format) (foxundermoon.shell-format)
+    - [shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format) (foxundermoon.shell-format)
 - Debuggers
     - [Bash Debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug) (rogalmic.bash-debug)
+        ```shellscript
+        code --install-extension rogalmic.bash-debug
+        ```
 
 ## [Git](https://git-scm.com/)
 
