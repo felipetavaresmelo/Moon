@@ -4,7 +4,7 @@ pass=$1
 log_setup=$HOME/ubuntu-setup.log
 declare -a progsSnap=("dbeaver-ce" "spotify" "skype --classic" "chromium" "code --classic" "whatsdesk" "telegram-desktop" "slack --classic" "discord" "gimp" "inkscape" "freemind" "filezilla --edge" "postgresql10" "insomnia" "node --classic" "vlc" "gydl")
 declare -a progsFlatpak=("com.obsproject.Studio" "peek" "org.gnucash.GnuCash" "org.gnome.Boxes" "org.gimp.GIMP")
-declare -a progsAptGet=("synaptic" "git" "brave-browser" "mongodb-org -y" "postgresql postgresql-contrib -y")
+declare -a progsAptGet=("synaptic" "git" "brave-browser" "mongodb-org -y" "postgresql postgresql-contrib -y" "curl")
 
 declare -a codeExtensions=("dracula-theme.theme-dracula" "PKief.material-icon-theme" "formulahendry.code-runner" "yzhang.markdown-all-in-one" "shd101wyy.markdown-preview-enhanced")
 
