@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- Início do script" >> $LOG_SETUP &&
 
+<<<<<<< HEAD
 # Inicializar variaveis
 LOG_SETUP=$HOME/ubuntu-setup.log &&
 EXT=0
@@ -12,6 +13,24 @@ if [ ! -d $PROJECTS ]; then  #"Directory $PROJECTS doesn't exists"
 fi 
 
 echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- Pastas padrão criadas"  >> $LOG_SETUP &&
+=======
+# Criar variaveis de ambiente
+log_file=$home/ubuntu-setup.log
+if [ ! -e "${log_file}" ]; then
+    mfdir $log_file
+else
+    echo "Found existing file $file_path"
+fi;
+
+projects_dir=$HOME/projects
+if [ ! -d "projects_dir}" ]; then
+    mkdir -p "$projects_dir"
+else
+    echo "Found projects dir $projects_dir"
+fi
+
+echo "$(date) -- info -- Início do script" >> $vLog
+>>>>>>> d2f91627d05e75d2cb3fe49942db46d5e4233dfa
 
 #Lista de aplicativos SNAP
 snap list &&
