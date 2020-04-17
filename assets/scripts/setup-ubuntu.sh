@@ -1,36 +1,23 @@
 #!/bin/bash
 echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- Início do script" >> $LOG_SETUP &&
 
-<<<<<<< HEAD
-# Inicializar variaveis
-LOG_SETUP=$HOME/ubuntu-setup.log &&
-EXT=0
-PROJECTS=$HOME/projects
+# Criar variaveis
+vLog_file=$home/ubuntu-setup.log
+vProjects_dir=$HOME/projects
 
-# Criar pastas padrão
-if [ ! -d $PROJECTS ]; then  #"Directory $PROJECTS doesn't exists" 
-	mkdir $PROJECTS &&
-fi 
-
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- Pastas padrão criadas"  >> $LOG_SETUP &&
-=======
-# Criar variaveis de ambiente
-log_file=$home/ubuntu-setup.log
-if [ ! -e "${log_file}" ]; then
-    mfdir $log_file
+if [ ! -d "${vProjects_dir}" ]; then
+    mkdir -p "$vProjects_dir"
 else
-    echo "Found existing file $file_path"
-fi;
-
-projects_dir=$HOME/projects
-if [ ! -d "projects_dir}" ]; then
-    mkdir -p "$projects_dir"
-else
-    echo "Found projects dir $projects_dir"
+    echo "Found projects dir $vProjects_dir" >> $vProjects_dir
 fi
 
-echo "$(date) -- info -- Início do script" >> $vLog
->>>>>>> d2f91627d05e75d2cb3fe49942db46d5e4233dfa
+if [ ! -e "${vLog_file}" ]; then
+    mfdir $vLog_file
+else
+    echo "Found existing file $vLog_file" >> $vLog_file
+fi;
+
+echo "$(date) -- info -- Início do script" >> $vLog_file
 
 #Lista de aplicativos SNAP
 snap list &&
@@ -38,80 +25,77 @@ snap list &&
 # Atualizacao de aplicativos
 sudo apt-get update &&
 sudo apt-get dist-upgrade -y &&
-
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- Aplicativos nativos atualizados"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- Aplicativos nativos atualizados"  >> $vLog_file &&
 
 # Chromium (https://www.chromium.org/)
 sudo snap install chromium &&
-
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- Chromium instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- Chromium instalado com sucesso"  >> $vLog_file &&
 
 
 # git (https://git-scm.com/download/linux)
 sudo apt-get install git -Y &&
-
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- git instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- git instalado com sucesso"  >> $vLog_file &&
 
 # VSCODE (https://github.com/Microsoft/vscode)
 sudo snap install code --classic &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- code instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- code instalado com sucesso"  >> $vLog_file &&
 
 code --install-extension dracula-theme.theme-dracula &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- (code-extension: dracula-theme.theme-dracula) instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- (code-extension: dracula-theme.theme-dracula) instalado com sucesso"  >> $vLog_file &&
 
 code --install-extension PKief.material-icon-theme &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- (code-extension: PKief.material-icon-theme) instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- (code-extension: PKief.material-icon-theme) instalado com sucesso"  >> $vLog_file &&
 
 code --install-extension formulahendry.code-runner &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- (code-extension: formulahendry.code-runner) instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- (code-extension: formulahendry.code-runner) instalado com sucesso"  >> $vLog_file &&
 
 code --install-extension rogalmic.bash-debug &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- (code-extension: rogalmic.bash-debug) instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- (code-extension: rogalmic.bash-debug) instalado com sucesso"  >> $vLog_file &&
 
 code --install-extension yzhang.markdown-all-in-one &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- (code-extension: yzhang.markdown-all-in-one) instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- (code-extension: yzhang.markdown-all-in-one) instalado com sucesso"  >> $vLog_file &&
 
 code --install-extension shd101wyy.markdown-preview-enhanced &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- (code-extension: shd101wyy.markdown-preview-enhanced) instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- (code-extension: shd101wyy.markdown-preview-enhanced) instalado com sucesso"  >> $vLog_file &&
 
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- code-extensions instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- code-extensions instalado com sucesso"  >> $vLog_file &&
 
 
 # WhatsAPP [quebrado]
 sudo snap install whatsdesk &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- whatsdesk instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- whatsdesk instalado com sucesso"  >> $vLog_file &&
 
 # Telegram (https://desktop.telegram.org/)
 sudo snap install telegram-desktop &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- telegram-desktop instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- telegram-desktop instalado com sucesso"  >> $vLog_file &&
 
     # uninstall (quebrado)
     # sudo snap remove telegram-desktop
 
 # Slack
 sudo snap install slack --classic &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- slack instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- slack instalado com sucesso"  >> $vLog_file &&
 
     # Uninistall
     # sudo snap remove slack
 
 # Discord
 sudo snap install discord &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- discord instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- discord instalado com sucesso"  >> $vLog_file &&
 
     # unistall
     # sudo snap remove whatsdesk
 
 # GIMP (https://www.gimp.org/)
 sudo snap install gimp &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- gimp instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- gimp instalado com sucesso"  >> $vLog_file &&
 
     # Uninstall
     # sudo apt-get purge gimp --auto-remove -y
 
 # Inkscape (https://wiki.inkscape.org/wiki/index.php/Installing_Inkscape)
 sudo apt-get update && sudo apt-get install inkscape &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- inkscape instalado com sucesso"  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- inkscape instalado com sucesso"  >> $vLog_file &&
 
 logger "inkscape instalado com sucesso"
     # uninstall
@@ -127,7 +111,7 @@ logger "inkscape instalado com sucesso"
 # echo -e '[Desktop Entry]\n Version=1.0\n Name=Trello\n Exec=/usr/bin/trello\n Icon=/opt/trello/resources/app/static/Icon.png\n Type=Application\n Categories=Application' | sudo tee /usr/share/applications/trello.desktop &&
 # sudo chmod +x /usr/share/applications/trello.desktop &&
 
-# echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- Trello instalado com sucesso"  >> $LOG_SETUP &&
+# echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- Trello instalado com sucesso"  >> $vLog_file &&
 
 
     # unistall
@@ -185,7 +169,7 @@ sudo apt install brave-browser &&
 
 # FreeMind (http://freemind.sourceforge.net/wiki/index.php/FreeMind_on_Linux#Install_FreeMind_Manually)
 sudo snap install freemind &&
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- freemind instalado com sucesso"  >> $log_setup
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- freemind instalado com sucesso"  >> $vLog_file
 
     #unistall
     # sudo snap remove freemind&&
@@ -282,7 +266,7 @@ sudo apt-get install -y nodejs &&
 
 snap install node --classic
 
-echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- nodejs instalado com sucesso "  >> $LOG_SETUP &&
+echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- nodejs instalado com sucesso "  >> $vLog_file &&
 
     # Uninstall
     # sudo apt-get purge nodejs --auto-remove -y # test ok
@@ -320,7 +304,7 @@ sudo -S flatpak install org.gnome.Boxes -y
 # VLC Vídeos  
 sudo snap install vlc
 
-echo "$(date +%D-%T-%N) -- info -- vlc instalado com sucesso"  >> $LOG_SETUP &
+echo "$(date +%D-%T-%N) -- info -- vlc instalado com sucesso"  >> $vLog_file &
 
 
 # Skype
@@ -384,14 +368,17 @@ sudo systemctl start tomcat
 
 # https://snapcraft.io/store
 
-# https://appimage.org/
-## https://www.appimagehub.com/
-
 # https://flatpak.org/
 ## https://flathub.org/home
 
+# https://appimage.org/
+## https://www.appimagehub.com/
+## https://appimage.github.io/apps/
+## https://github.com/AppImage/AppImageKit/wiki/AppImages
 
-https://linuxhint.com/uninstall-debian-packages/
+# https://linuxhint.com/uninstall-debian-packages/
 
-unset LOG_SETUP # excluir variável
+# excluir variável
+unset $vLog_file 
+unset $vProjects_dir
 exit $EXT
