@@ -2,7 +2,7 @@
 echo "$(date '+%Y/%m/%d-%H:%M:%S:%N') -- INFO -- Início do script" >> $LOG_SETUP &&
 
 # Criar variaveis
-vLog_file=$home/ubuntu-setup.log
+vLog_file=$home/setup-ubuntu.log
 vProjects_dir=$HOME/projects
 
 if [ ! -d "${vProjects_dir}" ]; then

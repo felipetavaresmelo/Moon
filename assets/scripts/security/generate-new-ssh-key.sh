@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
 
 # Creates a new ssh key
-ssh-keygen -t rsa -b 4096 -C "felipetavaresmelo@gmail.com" &&
+# ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ssh-keygen -t rsa -b 4096 -C "felipetavaresmelo@gmail.com"
 
 # Start the ssh-agent in the background
-eval "$(ssh-agent -s)" &&
+eval "$(ssh-agent -s)"
 
 # Add your SSH private key to the ssh-agent
-ssh-add ~/.ssh/id_rsa &&
+ssh-add ~/.ssh/id_rsa
 
 # copy pub key to the clipboard
-sudo apt-get install xclip &&
-xclip -sel clip < ~/.ssh/id_rsa.pub &&
+sudo apt-get install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub
 
 
 sudo apt install curl

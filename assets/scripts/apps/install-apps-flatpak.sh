@@ -1,15 +1,13 @@
 #!/bin/bash
 pass=$1
-log_flatpak=$HOME/install-apps-flatpak.log
+log_flatpak=$HOME/setup-apps-flatpak.log
 
 declare -a progs_flatpak=("peek" 
-                        )
-
-# "com.obsproject.Studio" 
-#                          "peek" 
-#                          "org.gnucash.GnuCash" 
-#                          "org.gnome.Boxes" 
-#                          "org.gimp.GIMP"
+                          "com.obsproject.Studio" 
+                          "org.gnucash.GnuCash" 
+                          "org.gnome.Boxes" 
+                          "org.gimp.GIMP"
+                          )
 
 echo "----------------------------------------------------"
 echo "Iniciando a instalação do FLATPAK e Plugin com o APT"

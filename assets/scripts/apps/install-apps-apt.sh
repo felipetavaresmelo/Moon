@@ -1,7 +1,6 @@
 #!/bin/bash
-
 pass=$1
-log_apt=$HOME/install-apps-apt.log
+log_apt=$HOME/setup-apps-apt.log
 
 declare -a progs_apt_get=("ruby-full build-essential zlib1g-dev" 
                         "synaptic" 
@@ -10,6 +9,7 @@ declare -a progs_apt_get=("ruby-full build-essential zlib1g-dev"
                         "mongodb-org -y" 
                         "postgresql postgresql-contrib -y" 
                         "curl"
+                        "xclip"
                         )
 
 echo "Iniciando instalações de apps com o APT-GET:" >> $log_apt
