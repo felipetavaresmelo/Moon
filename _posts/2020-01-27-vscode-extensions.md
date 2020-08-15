@@ -52,6 +52,10 @@ code --enable-proposed-api <extension-id>
 
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) (formulahendry.code-runner)
 
+### Reloaders
+
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)(ritwickdey.liveserver)
+
 ### Formatters
 
 - Destaque fechamentos de tags: [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) (CoenraadS.bracket-pair-colorizer)
